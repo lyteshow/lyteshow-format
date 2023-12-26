@@ -9,6 +9,6 @@ namespace Lyteshow
     {
         public byte H { get; set; }
         public byte S { get; set; }
-        public int L { get; set; }
+        public float L { get; set; }
     }
 }
