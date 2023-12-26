@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "title": "It's Golden Hour Somewhere",
+        "artist": "Lovejoy",
+        "album": "Wake Up & It's Over",
+        "length": 194.4
+    },
+    "objects": [
+        {
+            "time": 298,
+            "type": "col.set",
+            "data": {
+                "colour": "240,49,500"
+            }
+        },
+        {
+            "time": 590,
+            "end_time": 790,
+            "type": "col.fade",
+            "data": {
+                "colour_from": "current",
+                "colour_to": "0,0,0"
+            }
+        },
+        {
+            "time": 900,
+            "type": "effect.pulse",
+            "data": {
+                "colour": "240,49,300",
+                "length": 50
+            }
+        }
+    ]
+}
