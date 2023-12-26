@@ -10,6 +10,8 @@ namespace Lyteshow
         public string? ColourFrom { get; set; }
         public string? ColourTo { get; set; }
     }
+    // Currently unused, might not bother with conversion functions
+    // We'll see
     public enum ShowObjectType
     {
         SET,
