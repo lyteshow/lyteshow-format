@@ -11,7 +11,7 @@ public class Program
         if(path != null)
         {
             string jsonString = File.ReadAllText(path);
-            LyteFile? file = Utils.DeserializeLyte(jsonString);
+            LyteFile? file = LyteFormat.DeserializeLyte(jsonString);
             Console.WriteLine("Printing the time value of the first object:");
             Console.WriteLine(file?.objects?[0].Time);
         }

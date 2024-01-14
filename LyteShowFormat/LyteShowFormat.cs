@@ -10,7 +10,7 @@ namespace Lyteshow
         public ShowObject[]? objects { get; set; }
     }
 
-    public static class Utils
+    public static class LyteFormat
     {
         public static LyteFile? DeserializeLyte(string json)
         {
@@ -35,6 +35,4 @@ namespace Lyteshow
             return serializedFile;
         }
     }
-
-    
 }
